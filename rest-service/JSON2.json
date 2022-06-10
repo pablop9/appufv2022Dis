@@ -172,14 +172,6 @@
   ],
   "usuario": [
     {
-      "idusuario": "01",
-      "nombre": "Alonso Sanchez",
-      "departamento": "Desarrollo",
-      "telefono": "0998228182",
-      "correo": "alonso@dis.es",
-      "ubicacion": "UFV"
-    },
-    {
       "idusuario": "02",
       "nombre": "Emilio Tasso",
       "departamento": "Desconocido",
@@ -202,34 +194,42 @@
       "telefono": "999999999",
       "correo": "pablo@dis.es",
       "ubicacion": "UFV"
+    },
+    {
+      "idusuario": "04",
+      "nombre": "John Doe",
+      "departamento": "Desconocido",
+      "telefono": "666666666",
+      "correo": "johndoe@dise.es",
+      "ubicacion": "Desconodico"
     }
   ],
   "prestamo": [
     {
-      "idprestamo": "0001",
-      "usuario": "01",
-      "equipo": "PC_01",
+      "idprestamo": "0005",
+      "usuario": "02",
+      "equipo": "PC_03",
       "fechaIniP": "20/01/2021",
       "fechaFinP": "27/01/2022",
-      "fechaReal": "25/01/2021",
+      "fechaReal": "-",
       "comentarios": "Todo correcto"
     },
     {
-      "idprestamo": "0002",
-      "usuario": "01",
-      "equipo": "PC_02",
-      "fechaIniP": "20/03/2021",
-      "fechaFinP": "27/06/2022",
-      "fechaReal": "25/05/2021",
-      "comentarios": "Falta algo"
+      "idprestamo": "0005",
+      "usuario": "02",
+      "equipo": "PC_03",
+      "fechaIniP": "20/01/2021",
+      "fechaFinP": "27/01/2022",
+      "fechaReal": "-",
+      "comentarios": "Todo correcto"
     },
     {
-      "idprestamo": "0003",
-      "usuario": "01",
+      "idprestamo": "0005",
+      "usuario": "02",
       "equipo": "PC_03",
-      "fechaIniP": "21/10/2018",
-      "fechaFinP": "21/11/2018",
-      "fechaReal": "21/11/2018",
+      "fechaIniP": "20/01/2021",
+      "fechaFinP": "27/01/2022",
+      "fechaReal": "-",
       "comentarios": "Todo correcto"
     }
   ]
