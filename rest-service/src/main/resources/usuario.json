@@ -1,0 +1,17 @@
+[{
+    "idusuario": "0001",
+    "nombre": "Alonso Sánchez",
+    "departamento": "Desarrollo",
+    "telefono": "333333333", 
+    "correo": "alonso@dis.es",
+    "ubicacion": "UFV"
+},
+{
+    "idusuario": "0002",
+    "nombre": "Emilio Tasso",
+    "departamento": "Desarrollo",
+    "telefono": "345345345", 
+    "correo": "emilio@dis.es",
+    "ubicacion": "UFV"
+}
+]

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Equipos [
+    <!ELEMENT Equipos (Equipo)*>
+    <!ELEMENT Equipo (Id_Equipo, Tipo, Marca, Uso, SSOO, Hardware, Software)>
+    <!ELEMENT Id_Equipo (#PCDATA)>
+    <!ELEMENT Tipo (#PCDATA)>
+    <!ELEMENT Sobremesa (#PCDATA)>
+    <!ELEMENT Portátil (#PCDATA)>
+    <!ELEMENT Marca (#PCDATA)>
+    <!ELEMENT Uso (#PCDATA)>
+    <!ELEMENT SSOO (Nombre, Version)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Version (#PCDATA)>
+    <!ELEMENT Hardware (Procesador, Memoria, Disco, Pantalla)>
+    <!ELEMENT Procesador (#PCDATA)>
+    <!ELEMENT Memoria (Cantidad, Velocidad)>
+    <!ELEMENT Cantidad (#PCDATA)>
+    <!ELEMENT Velocidad (#PCDATA)>
+    <!ELEMENT Disco (Tipo_Disco, Capacidad)>
+    <!ELEMENT Tipo_Disco (#PCDATA)>
+    <!ELEMENT Capacidad (#PCDATA)>
+    <!ELEMENT Pantalla (Diagonal, Resolucion)>
+    <!ELEMENT Diagonal (#PCDATA)>
+    <!ELEMENT Resolucion (#PCDATA)>
+    <!ELEMENT Software (Licencia_pago, Licencia_libre)*>
+    <!ELEMENT Licencia_pago (Nombre_Software, Version_SW, Tipo_SW)>
+    <!ELEMENT Nombre_Software (#PCDATA)>
+    <!ELEMENT Version_SW (#PCDATA)>
+    <!ELEMENT Tipo_SW (#PCDATA)>
+    <!ELEMENT Licencia_libre (Nombre_Software, Version_SW)>
+]>
+
+<!--
+    Portátil|Sobremesa
+<!ELEMENT Usuarios (Id_usu, Nombre, Departamento, Telefono, Correo, Ubicacion)>
+<!ELEMENT Id_usu (#PCDATA)>
+<!ELEMENT Departamento (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Correo (#PCDATA)>
+<!ELEMENT Ubicacion (#PCDATA)>
+<!ELEMENT Prestamos (Id_p, Usuario, Equipo, FIni, FFin, FReal?, Comentarios)>
+<!ELEMENT Id_p (#PCDATA)>
+<!ELEMENT Usuario (Id_usu)>
+<!ELEMENT Equipo (Id)>
+<!ELEMENT FIni (#PCDATA)>
+<!ELEMENT FFin (#PCDATA)>
+<!ELEMENT FReal (#PCDATA)>
+<!ELEMENT Comentarios (#PCDATA)>
+-->
+<Equipos>
+    <Equipo>
+        <Id_Equipo>PC_01</Id_Equipo>
+        <Tipo>Sobremesa</Tipo>
+        <Marca>Asus</Marca>
+        <Uso>Desarrollo</Uso>
+        <SSOO>
+            <Nombre>Windows 11</Nombre>
+            <Version>Pro</Version>
+        </SSOO>
+        <Hardware>
+            <Procesador>I7 8700</Procesador>
+            <Memoria>
+                <Cantidad>16Gb</Cantidad>
+                <Velocidad>3100MHz</Velocidad>
+            </Memoria>
+            <Disco>
+                <Tipo_Disco>SSD</Tipo_Disco>
+                <Capacidad>512Gb</Capacidad>
+            </Disco>
+            <Pantalla>
+                <Diagonal>23</Diagonal>
+                <Resolucion>1920x1080</Resolucion>
+            </Pantalla>
+        </Hardware>
+        <Software>
+            <Licencia_libre>
+                <Nombre_Software>Visual Studio Code</Nombre_Software>
+                <Version_SW>1.62</Version_SW>
+            </Licencia_libre>
+            <Licencia_libre>
+                <Nombre_Software>Oracle VM Virtualbox</Nombre_Software>
+                <Version_SW>6.0</Version_SW>
+            </Licencia_libre>
+        </Software>
+    </Equipo>
+</Equipos>

@@ -1,0 +1,244 @@
+{
+  "equipo": [
+    {
+      "idequipo": "PC_01",
+      "tipo": "Sobremesa",
+      "marca": "ASUSTek",
+      "uso": "Desarrollo",
+      "sistop": {
+        "nombre": "Windows 11",
+        "version": "Pro"
+      },
+      "hardware": {
+        "procesador": "I7 8700",
+        "memoria": {
+          "cantidad": "16Gb",
+          "velocidad": "3100MHz"
+        },
+        "disco": {
+          "tipo": "SSD",
+          "capacidad": "512Gb"
+        },
+        "pantalla": {
+          "diagonal": "23",
+          "resolucion": "1920x1080"
+        }
+      },
+      "software": {
+        "softwarelibre": [
+          {
+            "nombre": "Visual Studio Code",
+            "version": "1.62"
+          },
+          {
+            "nombre": "Oracle VM Virtualbox",
+            "version": "6.0"
+          }
+        ],
+        "softwarepago": [
+          {
+            "nombre": "IntelliJ Idea",
+            "version": "2021.2.3",
+            "tipo": "OEM"
+          },
+          {
+            "nombre": "Microsoft Excel",
+            "version": "2021",
+            "tipo": "Retail"
+          },
+          {
+            "nombre": "VMWare Workstation Pro",
+            "version": "16",
+            "tipo": "Personal"
+          }
+        ]
+      }
+    },
+    {
+      "idequipo": "PC_02",
+      "tipo": "Portatil",
+      "marca": "HP",
+      "uso": "Programación",
+      "sistop": {
+        "nombre": "Windows 10",
+        "version": "Home"
+      },
+      "hardware": {
+        "procesador": "I7 7700",
+        "memoria": {
+          "cantidad": "32Gb",
+          "velocidad": "3000MHz"
+        },
+        "disco": {
+          "tipo": "SSD",
+          "capacidad": "256Gb"
+        },
+        "pantalla": {
+          "diagonal": "20",
+          "resolucion": "1920x1080"
+        }
+      },
+      "software": {
+        "softwarelibre": [
+          {
+            "nombre": "Dev c++",
+            "version": "6.3"
+          },
+          {
+            "nombre": "VM Ware Workstation",
+            "version": "16.2.1"
+          }
+        ]
+      }
+    },
+    {
+      "idequipo": "PC_03",
+      "tipo": "Sobremesa",
+      "marca": "ASUSTek",
+      "uso": "Facturacion",
+      "sistop": {
+        "nombre": "Windows 11",
+        "version": "Pro"
+      },
+      "hardware": {
+        "procesador": "I5 2500k",
+        "memoria": {
+          "cantidad": "8Gb",
+          "velocidad": "2000MHz"
+        },
+        "disco": {
+          "tipo": "SSD",
+          "capacidad": "512Gb"
+        },
+        "pantalla": {
+          "diagonal": "23",
+          "resolucion": "1920x1080"
+        }
+      },
+      "software": {
+        "softwarepago": [
+          {
+            "nombre": "IntelliJ Idea",
+            "version": "2021.2.3",
+            "tipo": "OEM"
+          }
+        ]
+      }
+    },
+    {
+      "idequipo": "PC_04",
+      "tipo": "Portátil",
+      "marca": "MSI",
+      "uso": "Seguridad",
+      "sistop": {
+        "nombre": "Parrot OS KDE",
+        "version": "4.11.3"
+      },
+      "hardware": {
+        "procesador": "I5 2500k",
+        "memoria": {
+          "cantidad": "16Gb",
+          "velocidad": "3600MHz"
+        },
+        "disco": {
+          "tipo": "SSD",
+          "capacidad": "512Gb"
+        },
+        "pantalla": {
+          "diagonal": "13",
+          "resolucion": "1920x1080"
+        }
+      },
+      "software": {
+        "softwarelibre": [
+          {
+            "nombre": "Visual Studio Code",
+            "version": "1.62"
+          },
+          {
+            "nombre": "Oracle VM Virtualbox",
+            "version": "6.0"
+          }
+        ],
+        "softwarepago": [
+          {
+            "nombre": "IntelliJ Idea",
+            "version": "2021.2.3",
+            "tipo": "OEM"
+          }
+        ]
+      }
+    }
+  ],
+  "usuario": [
+    {
+      "idusuario": "01",
+      "nombre": "Alonso Sánchez",
+      "departamento": "UFV",
+      "telefono": "345345345",
+      "correo": "alonso.sanchez@dis.es",
+      "ubicacion": "UFV"
+    },
+    {
+      "idusuario": "02",
+      "nombre": "Emilio Tasso",
+      "departamento": "Desconocido",
+      "telefono": "345345345",
+      "correo": "emilio@dis.es",
+      "ubicacion": "UFV"
+    },
+    {
+      "idusuario": "03",
+      "nombre": "Ernesto Marin",
+      "departamento": "Rehabilitación",
+      "telefono": "777777777",
+      "correo": "ernesto@dis.es",
+      "ubicacion": "UFV"
+    },
+    {
+      "idusuario": "04",
+      "nombre": "John Doe",
+      "departamento": "Desconocido",
+      "telefono": "666666666",
+      "correo": "johndoe@dise.es",
+      "ubicacion": "Desconodico"
+    },
+    {
+      "idusuario": "04",
+      "nombre": "John Doe",
+      "departamento": "Desconocido",
+      "telefono": "666666666",
+      "correo": "johndoe@dise.es",
+      "ubicacion": "Desconodico"
+    }
+  ],
+  "prestamo": [
+    {
+      "idprestamo": "0005",
+      "usuario": "02",
+      "equipo": "PC_03",
+      "fechaIniP": "20/01/2021",
+      "fechaFinP": "27/01/2022",
+      "fechaReal": "-",
+      "comentarios": "Todo correcto"
+    },
+    {
+      "idprestamo": "0005",
+      "usuario": "02",
+      "equipo": "PC_03",
+      "fechaIniP": "20/01/2021",
+      "fechaFinP": "27/01/2022",
+      "fechaReal": "-",
+      "comentarios": "Todo correcto"
+    },
+    {
+      "idprestamo": "0005",
+      "usuario": "02",
+      "equipo": "PC_03",
+      "fechaIniP": "20/01/2021",
+      "fechaFinP": "27/01/2022",
+      "fechaReal": "-",
+      "comentarios": "Todo correcto"
+    }
+  ]
+}
