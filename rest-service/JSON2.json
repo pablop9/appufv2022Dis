@@ -172,6 +172,14 @@
   ],
   "usuario": [
     {
+      "idusuario": "01",
+      "nombre": "Alonso Sánchez",
+      "departamento": "UFV",
+      "telefono": "345345345",
+      "correo": "alonso.sanchez@dis.es",
+      "ubicacion": "UFV"
+    },
+    {
       "idusuario": "02",
       "nombre": "Emilio Tasso",
       "departamento": "Desconocido",
@@ -189,11 +197,11 @@
     },
     {
       "idusuario": "04",
-      "nombre": "Pablo Cayetano",
+      "nombre": "John Doe",
       "departamento": "Desconocido",
-      "telefono": "999999999",
-      "correo": "pablo@dis.es",
-      "ubicacion": "UFV"
+      "telefono": "666666666",
+      "correo": "johndoe@dise.es",
+      "ubicacion": "Desconodico"
     },
     {
       "idusuario": "04",
